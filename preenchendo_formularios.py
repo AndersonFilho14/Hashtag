@@ -18,5 +18,7 @@ coloando o alerta.accept, para aceitar ou o alerta.dismiss para recusar '''
 .is_selected -- usado pra saber se o  button está selecionado 
 '''
 
-
-
+'''Outro que ajuda é o select
+from selenium.webdriver.support.select import Select
+Tendo varias funçoes que podem ser utilizadas juntos com o browser
+'''
