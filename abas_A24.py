@@ -18,6 +18,7 @@ browser.find_element(By.XPATH,'/html/body/section[2]/div/div[6]/figure/a/img').c
 #Pra saber quantas abas tem, se usa 'lista-abas = browser.window_handles' recebendo uma lista dessa variavel
 print(browser.window_handles)
 # Esquema para saber a posição que cada está e o nome dela 
+lista_abas = browser.window_handles
 for i in lista_abas:
     browser.switch_to.window(i)
     print(browser.title)
